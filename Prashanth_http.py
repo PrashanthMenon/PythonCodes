@@ -1,9 +1,8 @@
-
+__author__ ='prashanthk'
 import requests
 import time
 import json
 import sys
-#from decimal import roun
 
 def read_file():
     '''
