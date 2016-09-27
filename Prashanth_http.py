@@ -39,7 +39,7 @@ def send_get(url):
         #print 1,url
         response = requests.get(url)
         #print 2,response
-        if response.status_code != 200: # if not a successful response then forget the shit
+        if response.status_code != 200: # if not a successful response then forget this
             return 10000 #and return 0
         end_time = time.clock()
         latency = measure_time(start_time,end_time)
